@@ -75,6 +75,7 @@ imageNet* imageNet::Create( const char* prototxt_path, const char* model_path, c
 	
 	if( !net )
 		return NULL;
+	
 	if( !net->init(prototxt_path, model_path, mean_binary, class_path, input, output, maxBatchSize, precision, device, allowGPUFallback) )
 	{
 		LogError(LOG_TRT "imageNet -- failed to initialize.\n");

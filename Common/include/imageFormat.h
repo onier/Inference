@@ -25,7 +25,7 @@
 
 
 // include vector types (float4, float3, uchar4, uchar3, ect.)
-#include "cuda/cudaUtility.h"
+#include "cudaUtility.h"		
 
 
 /**

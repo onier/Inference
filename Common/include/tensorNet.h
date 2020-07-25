@@ -29,7 +29,7 @@ namespace nvinfer1 { class IInt8Calibrator; }
 // includes
 #include <NvInfer.h>
 
-#include <cuda/cudaUtility.h>
+#include <cudaUtility.h>
 #include <commandLine.h>
 #include <imageFormat.h>
 #include <timespec.h>
